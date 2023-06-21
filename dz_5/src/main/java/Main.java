@@ -17,7 +17,7 @@ public class Main {
         boolean result_two = sum_one > sum_two;
         System.out.println(result_two);
 
-        if (sum_one % 2 == 0 | sum_two % 2 == 0) {
+        if (sum_one % 2 == 0 || sum_two % 2 == 0) {
             System.out.println(true);
         } else {
             System.out.println(false);
